@@ -1,6 +1,6 @@
 //Validation for form
 
-/*function validateText(id) 
+function validateText(id) 
 {
     //If the fields are leave blank, an alert message will display
     if($("#"+id).val()==null || $("#"+id).val()=="")
@@ -42,10 +42,11 @@ $(document).ready(
         }
 
 
-    );*/
+    );
 
 
-/*var $ = function (id) {return document.getElementById(id) ; }
+    
+    /*var $ = function (id) {return document.getElementById(id) ; }
 
 var contactForm = function () {
     //Array of Fields
